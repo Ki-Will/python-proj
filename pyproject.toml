@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "calcutils-princeb"
+version = "0.1.0"
+description = "A simple student tutorial math utility package"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+    { name = "Prince", email = "irakozeprincebonheurwilliam@gmail.com" }
+]
+
+license = { text = "MIT" }
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+
+[project.urls]
+Homepage = "https://github.com/Ki-Will/python-proj"
+Repository = "https://github.com/Ki-Will/python-proj"
+Issues = "https://github.com/Ki-Will/python-proj/issues"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
