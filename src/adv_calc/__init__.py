@@ -1,3 +1,17 @@
-__version__ = "0.1.0" 
+from .operation import (
+    add,
+    multiply,
+    subtract,
+    average,
+    area_rect,
+    circumference,
+)
 
-from operations import add , multiply ,subtract ,average , area_rect, cicumf
+__all__ = [
+    "add",
+    "multiply",
+    "subtract",
+    "average",
+    "area_rect",
+    "circumference",
+]
